@@ -1,0 +1,14 @@
+{
+    "require": {
+        "vlucas/phpdotenv": "^5.1",
+        "ext-curl": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "Components\\": "components/",
+            "Controllers\\": "controllers",
+            "Database\\": "database/",
+            "Models\\": "models"
+        }
+    }
+}
